@@ -6,6 +6,7 @@ import Cards from "./Cards";
 import UnderCards from "./underCards";
 
 import { HiArrowSmallDown } from "react-icons/hi2";
+import Projects from "./Projects";
 
 function Body() {
   return (
@@ -61,6 +62,21 @@ function Body() {
         </div>
         <Cards />
         <UnderCards />
+      </div>
+      <div className=" my-44 text-dark-void flex flex-col dark:text-snow-white">
+        <div className="text-lg text-center my-1">Portfolio</div>
+        <div className="text-center text-4xl font-extrabold my-2 dark:text-liquid-lava">
+          My Projects
+        </div>
+        <div className="md:w-1/2  flex flex-col mx-auto text-center tracking-widest">
+          <div className="my-2">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, ex?
+            Error adipisci nobis voluptates. Voluptate architecto adipisci fuga
+            dignissimos eveniet aspernatur temporibus laudantium. Quos odio sint
+            esse! Perspiciatis, dolores praesentium.
+          </div>
+          <Projects />
+        </div>
       </div>
     </div>
   );

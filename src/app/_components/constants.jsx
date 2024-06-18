@@ -40,3 +40,10 @@ export const deets = [
   { Number: 4, text: "BPSU Graduated" },
   { Number: 35, text: "BPSU Graduated" },
 ];
+
+export const projects = [
+  { name: "all", id: "all" },
+  { name: "UI/UX", id: "uiux" },
+  { name: "web development", id: "webdevelopment" },
+  { name: "Marketing", id: "" },
+];

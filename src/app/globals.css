@@ -40,5 +40,32 @@ body {
   }
 }
 
+/* components/TabMenu.module.css */
+.tabHeaders {
+  display: flex;
+  justify-content: center;
+}
 
+.tabHeader {
+  text-transform: uppercase;
+  padding: 1rem;
+  border-bottom: 2px solid transparent;
+  border-radius: 0.5rem 0.5rem 0 0;
+  transition: border-bottom 0.3s ease;
+}
 
+.tabHeaderActive {
+  border-bottom: 2px solid #1a202c; /* Customize this color as needed */
+}
+
+.tabContent {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.5s ease, max-height 0.5s ease;
+}
+
+.tabContentActive {
+  opacity: 1;
+  max-height: 1000px; /* Arbitrary large value to ensure content is fully visible */
+}
