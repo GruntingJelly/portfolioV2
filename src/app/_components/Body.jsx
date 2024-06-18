@@ -49,9 +49,9 @@ function Body() {
       </div>
       <div className="text-dark-void dark:text-snow-white">
         <div className="flex justify-center">
-          <div className="pt-32 font-bold text-xl">Services</div>
+          <div className="pt-32 font-bold text-lg">Services</div>
         </div>
-        <div className="py-4 font-extrabold flex justify-center text-4xl text-center">
+        <div className="py-4 font-extrabold flex justify-center text-4xl text-center dark:text-liquid-lava">
           What I Am Great At
         </div>
         <div className="text-center mx-auto md:w-1/2 ">
@@ -64,7 +64,9 @@ function Body() {
         <UnderCards />
       </div>
       <div className=" my-44 text-dark-void flex flex-col dark:text-snow-white">
-        <div className="text-lg text-center my-1">Portfolio</div>
+        <div className="text-lg text-center my-1 pt-32 font-bold ">
+          Portfolio
+        </div>
         <div className="text-center text-4xl font-extrabold my-2 dark:text-liquid-lava">
           My Projects
         </div>
